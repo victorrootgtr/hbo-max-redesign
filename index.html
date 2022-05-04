@@ -7,29 +7,49 @@
     <title>HBO Max Redesign</title>
 </head>
 <body>
-    <div id="container">
-        <header>
-            <div>
+    <div id="container"> <!-----Inicio Container------>
+        <header> <!-----Inicio Header------>
+            <div id="menu-superior"><!-----Inicio Menu------>
                 <img src="img/logo.png" alt="logo-hbo">
                 <ul>
-                    <li>Movies</li>
-                    <li>TV shows</li>
-                    <li>Animation</li>
-                    <li>Upgrade</li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li><a href="#">Animations</a></li>
+                    <li><a href="#">Upgrade</a></li>                    
                 </ul>
-            </div>
+                <img id="perfil" src="img/perfil.jpg" alt="">
+            </div> <!-----Fim Menu------>
+        </header> <!-----Fim Header------>
 
-            <main>
-                <section>
-                    <p>2021 | PG-13 | 2h 28m</p>
-                    <h2>SPIDER-MAN: NO WAY HOME</h2> 
-                    <P>Action | Adventure </P>
-                </section>
-            </main>
-        </header>
+        <main> <!-----Inicio Main------>
+            <section> <!-----Inicio Section 1 ------>
+                <span>2021 | PG-13 | 2h 28m</span>
+                <h2>SPIDER-MAN:<br>NO WAY HOME</h2> 
+                <p>Action | Adventure | Fantasy</p>
+                <img src="img/IMDB-logo.jpg" alt="IMDB-logo">
+            </section> <!-----Fim Section 1 ------>
+            <span id="nota">8.5</span>
 
 
+            <section id="player-button"> <!-----Inicio Section 2 ------>
+                <div>
+                    <img src="img/play-button.png" alt="">
+                    <a href="">Watch Now</a>
+                </div>
+            </section><!-----Fim Section 2 ------>
 
-    </div>
+            <section><!-----Inicio Section 3/ Filmes ------>
+                <div class="collections">
+                    <h3>Popular Collections</h3>
+                    <img src="img/thumbnail-1.jpg" alt="">
+                    <img src="img/thumbnail-2.jpg" alt="">
+                    <img src="img/thumbnail-3.jpg" alt="">
+                    <img src="img/thumbnail-4.jpg" alt="">
+                    <img src="img/thumbnail-5.jpg" alt="">
+                    <img src="img/thumbnail-6.jpg" alt="">  
+                </div>
+            </section><!-----Fim Section 3/ Filmes ------>
+        </main> <!-----Fim Main------>      
+    </div> <!-----Fim Container------>
 </body>
 </html>

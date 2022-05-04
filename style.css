@@ -11,9 +11,175 @@
 }
 
 body{
+    font-size: 1.6rem;
     font-family: 'Gilroy';
     background:url(../img/background.jpg);
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
+    
 }
+/********** Formatação Header ************/
+#container header {
+
+}
+
+header {
+    background-color: rgba(0,0,0,50%);
+    height: 8.2rem;
+    border-radius: 2rem;
+    margin: 4rem 5rem;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+header img{
+    cursor: pointer;
+    margin: 2.7rem 5rem ;
+    
+}
+/********* Formatação Menu **************/
+
+#menu-superior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu-superior ul{
+    align-items: center;
+    margin-left: 35rem;
+    
+}
+
+#menu-superior li{
+    display: inline-block; 
+    
+}
+
+#menu-superior li a{
+    font-size: 2rem;
+    font-weight: 400;
+    width: 48.8rem;
+    height: 2.4rem;
+    color: #fff;
+    padding-left: 5rem;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+#menu-superior img#perfil{
+    width: 4.6rem;
+    height: 4.6rem;
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+    border-radius: 2rem;
+    
+}
+
+
+#menu-superior li a:hover{
+    color: whitesmoke;
+}
+
+/****** Formatação Main *******/
+
+main{
+    color: #fff;
+    margin-top: 6.5rem;
+    
+}
+
+main section span{
+    font-size: 2rem;
+    margin: 19rem 88.7px 6.7rem 5rem;
+    line-height: 2.3rem;
+    
+}
+
+main h2{
+    margin-left: 5rem;
+    width: 57.5rem;
+    height: 18.6rem;
+    font-size: 8rem;
+    font-weight: 400 bolder;
+    text-transform: uppercase;
+    line-height: 9.2rem;
+}
+
+section p{
+    margin-left: 5rem;
+    font-size: 3rem;
+}
+
+section img{
+    margin: 2.1rem 5rem;
+    border-radius: 0.2rem;
+    width: 5.3rem;
+    height: 2.6;
+    
+}
+
+main span#nota{
+    font-size: 2.8rem;
+    position: absolute;
+    top: 44.6rem;
+    left: 12rem;
+    width: 4.1rem;
+    height: 2.7rem;
+}
+
+/********Formatação Botão ********/
+
+main #player-button{
+    border: 1px solid white;
+    margin-left: 5rem;
+    width: 16rem;
+    height: 5.4rem;
+    border-radius: 1rem;
+    
+}
+
+#player-button img{
+    width: 2.4rem;
+    height: 2.4rem;
+    position: absolute;
+    margin: 1.5rem 1.0rem 1.5rem 1.5rem;
+
+}
+
+#player-button a{
+    color: #fff;
+    padding:1.7rem 1.5rem 1.5rem 4.9rem;
+    font-size: 1.7rem;  
+    display: inline-block; 
+    text-decoration: none;
+    position: absolute;
+    top:50rem;
+    left: 5rem;
+}
+
+
+/*******Collections***********/
+
+section .collections h3{
+    margin-top: 6.7rem;
+    margin-left: 5rem;
+    font-size: 3rem;
+    font-weight: 400 bold;
+}
+
+section .collections img{
+    width: 21.9rem;
+    height: 28rem;
+    margin: 2rem 4rem 0.9rem 5rem;
+    border-radius: 1.2rem;
+    
+}
+
+
+
+
