@@ -10,12 +10,19 @@
   <img alt="" src=".github/preview-desktop.png" width="100%">
 </p>
 
+
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
+
+## 🚧 Projeto
+
+Live Preview: hbo-max-redesign-j623ob0ig-victorrootgtr.vercel.app
+
 ## 🎨 Inspiração:
 
 Figma: https://www.figma.com/file/9e1Hid6tWjrnVemRImTdrY/HBO-Max-Redesign-Web-App-(Community)
