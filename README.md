@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto
 
-Live Preview: hbo-max-redesign-j623ob0ig-victorrootgtr.vercel.app
+Live Preview: https://www.hbo-max-redesign-j623ob0ig-victorrootgtr.vercel.app
 
 ## 🎨 Inspiração:
 
